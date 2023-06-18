@@ -6,14 +6,14 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.blueGrey[700],
         appBar: AppBar(
-          backgroundColor: Colors.grey[700],
+          backgroundColor: Colors.blueGrey[600],
           title: Center(
             child: Text(
               "Magic Ball",
               style: TextStyle(
-                color: Colors.grey[900],
+                color: Colors.blueGrey[100],
                 fontWeight: FontWeight.bold,
               ),
             ),
